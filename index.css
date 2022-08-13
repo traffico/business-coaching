@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+body{
+    box-sizing: border-box;
+    margin: auto;
+    overflow-x: hidden;
+}
+svg{
+    width: 30px;
+    background-color: rgba(245, 10, 10, 0.176);
+    color: white;
+    border-radius: 16px;
+    padding: 4px;
+}
+#section-one{
+    background: url("/images/building.jpg");
+    background-size: cover;
+    height: 800px;
+}
+#section-two{
+    display: flex;
+    justify-content: center;
+    /* width: 700px; */
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.635);
+}
+p{
+    font-size: 15px;
+}
+h3{
+    font-size: 21px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+#card-one{
+    position: relative;
+    left: 25%;
+    background-color: rgb(133, 19, 19);
+    color: white;
+    width: 270px;
+    padding: 2px 23px;
+    padding-bottom: 38px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    position: relative;
+    top: 3px;
+}
+#card-two{
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    margin-right: 22px;
+    position: relative;
+    bottom: 29px;
+}
+#card-three{
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    margin-right: 22px;
+    position: relative;
+    bottom: 29px;
+}
+#card-four{
+    background-color: white;
+    width: 250px;
+    padding: 25px;
+    position: relative;
+    bottom: 29px;
+}
+#section-three{
+    margin-top: 30px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+}
+#section-four{
+    margin-top: 55px;
+    background: url("/images/img-three.jpg");
+    /* background: url("/images/img-four.jpg"); */
+    height: 234px;
+}
+#coach{
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+#section-five{
+    display: flex;
+    width: 600px;
+    margin: auto;
+}
+#section-six{
+    padding: 20px;
+    padding-bottom: 83px;
+    text-align: center;
+    margin-top: 90px;
+    background-color: rgba(220, 220, 220, 0.247);
+}
+#section-seven{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(220, 220, 220, 0.247);
+    padding-bottom: 50px;
+}
+#section-eight{
+    margin-top: 75px;
+    margin-bottom: 54px;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 12px 12px;
+}
+#business-result{
+    display: flex;
+     flex-direction:column; 
+     width: 330px; 
+    background-color: #fff; 
+    padding: 19px;
+}
+#card-five{
+    display: flex; flex-direction:column; width: 330px; background-color: #fff; margin-right: 20px; padding: 19px;
+}
+#card-six{
+    display: flex; flex-direction:column; width: 330px; background-color: #fff; margin-right: 20px; padding: 19px;
+}
+#card-img{
+    width: 330px;
+}
+#last-img{
+    width: 460px;
+}
+#about{
+    width: 500px; margin-right: 60px;margin-top: 44px;margin-bottom: 95px;
+}
+
+
+/* Media query */
+@media (max-width: 1200px){
+    #section-one{
+        width: 90vw;
+        margin-left: 11px;
+        margin-right: 11px;
+    }
+    #section-two{
+        width: 100%;
+    }
+    #section-three{
+        flex-wrap: wrap;
+    }
+    #section-four{
+        width: 100%;
+    }
+    #section-five{
+        width: 90%;
+    }
+    #section-seven{
+        display: flex;
+       flex-wrap: wrap;
+       gap: 23px;
+    }
+    #businesss-result{
+        margin-top: 12px;
+    }
+    #card-one{
+        left: 0%;
+        width: 80%;
+        margin: auto;
+        overflow-wrap: normal;
+    }
+    #card-two{
+        width: 85%;
+        margin: auto;
+        margin-bottom: 33px;
+    }
+    #card-three{
+        width: 85%;
+        margin: auto;
+        margin-bottom: 33px;
+    }
+    #card-four{
+        width: 85%;
+        margin: auto;
+    }
+    #business-result, #card-five, #card-six{
+        width: 85%;
+    }
+    #card-img{
+        width: 100%;
+    }
+    #last-img{
+        width: 85%;
+    }
+    #about{
+        width: 85%;
+        margin: auto;
+        margin-bottom: 44px;
+    }
+    #one, #two, #three, #why{
+        width: 85%;
+        margin: auto;
+    }
+}
+@media (max-width:767px){
+    #section-one{
+        width: 90vw;
+        margin-left: 11px;
+        margin-right: 11px;
+    }
+    #section-two{
+        width: 100%;
+        flex-direction: column
+    }
+    #section-three{
+        flex-wrap: wrap;
+    }
+    #section-four{
+        width: 100%;
+    }
+    #section-five{
+        width: 90%;
+        flex-direction: column;
+    }
+    #section-seven{
+        margin: auto;
+    }
+    #section-eight{
+        flex-direction: column;
+    }
+    #businesss-result{
+        margin-top: 12px;
+    }
+    #card-one{
+        left: 0%;
+        width: 80%;
+        margin: auto;
+        overflow-wrap: normal;
+    }
+    #card-two{
+        width: 85%;
+        margin: auto;
+        margin-bottom: 33px;
+    }
+    #card-three{
+        width: 85%;
+        margin: auto;
+        margin-bottom: 33px;
+    }
+    #card-four{
+        width: 85%;
+        margin: auto;
+    }
+    #business-result, #card-five, #card-six{
+        width: 85%;
+    }
+    #card-img{
+        width: 100%;
+    }
+    #last-img{
+        width: 98%;
+        margin: auto;
+    }
+    #about{
+        width: 85%;
+        margin: auto;
+        margin-bottom: 44px;
+    }
+    #one, #two, #three, #why{
+        width: 85%;
+        margin: auto;
+    }
+}

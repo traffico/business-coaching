@@ -1,0 +1,14 @@
+$(document).ready(function(){
+    $("#open").click(function(){
+        $("#drop-down-menu").show()
+        $("#open").hide()
+        $("main").hide()
+        $("#hr").hide()
+    })
+    $("#close").click(function(){
+        $("#drop-down-menu").hide()
+        $("#open").show()
+        $("main").show()
+        $("#hr").show()
+    })
+})
